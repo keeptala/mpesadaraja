@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const request = require("request");
 const moment = require("moment");
 
-const port = var port = process.env.PORT || 5000;
+var port = process.env.PORT || 5000;
 const hostname = "0.0.0.0";
 app.use(bodyParser.json());
 const server = http.createServer(app);
