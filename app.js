@@ -91,7 +91,7 @@ app.post("/stkpush", (req, res) => {
             PhoneNumber: `254${phone}`,
             CallBackURL: "https://mydomain.com/pat",
             AccountReference: "foodapp",
-            TransactionDesc: "Mpesa Daraja API stk push for foodapp",
+            TransactionDesc: "Mpesa Daraja API stk push for payment",
           },
         },
         function (error, response, body) {
